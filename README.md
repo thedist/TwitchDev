@@ -3,7 +3,7 @@ Tutorial for implementing Twitch EventSub using serverless infrastructure.
 
 ## EventSub
 
-[**Introduction to EventSub on AWS**](/Tutorials/Intro-to-EventSub-on-AWS/README.md)
+[**Introduction to EventSub on AWS**](/Tutorials/Intro-to-EventSub-on-AWS)
 
 Serverless solutions such as those offered by AWS, Google Cloud, Microsoft Azure, and others, are a cost effective method of integrating with Twitch EventSub. Unlike traditional hosted, or virtualized, servers which often have a monthly or yearly rental which is applied regardless of if the server is utilized or not, Serverless solutions such as API Gateway, Lambda, and DynamoDB charge based on usage and can scale up and down as needed so you will not be paying for unused capacity.
 
