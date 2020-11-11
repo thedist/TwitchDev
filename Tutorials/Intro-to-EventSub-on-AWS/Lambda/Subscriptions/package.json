@@ -1,0 +1,18 @@
+{
+  "name": "twitchdev-tutorial-eventsub-subscriptions",
+  "version": "1.0.0",
+  "description": "Subscription handler for Twitch EventSub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitch",
+    "EventSub"
+  ],
+  "author": "Jeff Martin <dist@dist.dev>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "got": "^11.8.0"
+  }
+}

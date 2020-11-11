@@ -1,0 +1,16 @@
+{
+  "name": "twitchdev-tutorial-eventsub-notifications",
+  "version": "1.0.0",
+  "description": "Notification handler for Twitch EventSub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitch",
+    "EventSub",
+    "AWS"
+  ],
+  "author": "Jeff Martin <dist@dist.dev>",
+  "license": "UNLICENSED"
+}
