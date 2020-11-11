@@ -33,10 +33,10 @@ exports.handler = async (event) => {
     // This example topic will let you easily test if the notification handler is working and writing to DyanmoDB
     // Once subscribed you can test by following my channel https://twitch.tv/thedist which will trigger a notification
     const body = {
-      type: 'users.follow',
+      type: 'channel.follow',
       version: '1',
       condition: {
-        to_user_id: '32168215'
+        broadcaster_user_id: '32168215'
       },
       transport: {
         method: 'webhook',
