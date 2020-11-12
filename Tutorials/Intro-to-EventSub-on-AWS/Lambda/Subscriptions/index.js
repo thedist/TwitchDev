@@ -9,7 +9,7 @@ const getAppToken = async () => {
     .catch(err => {
       console.warn(err);
       return false;
-    })
+    });
 };
 
 exports.handler = async (event) => {

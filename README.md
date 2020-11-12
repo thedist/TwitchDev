@@ -1,15 +1,11 @@
-# TwitchDev-Tutorial-EventSub
-Tutorial for implementing Twitch EventSub using serverless infrastructure. 
+# TwitchDev - Tutorials, Guides, and Code Snippets
+
+Examples of integrating with various Twitch services that are available to 3rd party developers. If anything here has been helpful I'd appreciate if you stared this GitHub Repo, and follow my [Twitch Channel](https://twitch.tv/theDist) :)
+
 
 ## EventSub
 
-[**Introduction to EventSub on AWS**](/Tutorials/Intro-to-EventSub-on-AWS)
-
-Serverless solutions such as those offered by AWS, Google Cloud, Microsoft Azure, and others, are a cost effective method of integrating with Twitch EventSub. Unlike traditional hosted, or virtualized, servers which often have a monthly or yearly rental which is applied regardless of if the server is utilized or not, Serverless solutions such as API Gateway, Lambda, and DynamoDB charge based on usage and can scale up and down as needed so you will not be paying for unused capacity.
-
-This tutorial is intended as a basic introduction to how these services can be used with EventSub, and depending on your needs they may or may not be suitable in a production environment.
-
-The goal is to have an internet accessible callback URL for Twitch to send notifications to, 2 Lambda functions (1 for subscribing, unsubscribing, and returning status data, and 1 function for handling incoming notifications), and a DyanmoDB database to store notifications. While the creation of this setup could be entirely automated, this hands-on tutorial should lead to a greater understanding of the underlying services involved.
+[**Introduction to EventSub on AWS**](/Tutorials/Intro-to-EventSub-on-AWS) - Step by step tutorial on implementing EventSub Webhook Subscriptions and Notification handling.
 
 
 

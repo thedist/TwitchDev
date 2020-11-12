@@ -45,7 +45,7 @@ The goal is to have an internet accessible callback URL for Twitch to send notif
 1. Go to the [Lambda console](https://console.aws.amazon.com/lambda), click `Create function`.
 2. Name the Subscriptions handler function, such as `TwitchDev-Tutorial-EventSub-Subscriptions`, select `Node.js 12.x` runtime, change default execution role and using an existing role select the IAM role created in the previous step, then click `Create function`.
 3. Under the `Actions` dropdown menu, select upload .zip and select the `Subscriptions.zip` file included in this repo.
-4. In the `Environment variables` section, create keys for `clientID` and `clientSecret` which will be the client id and secret from your app on Twitch, `eventSubSecret` variable which you create yourself, and we'll also come back later to add a `callback` variable once we've created our API Gateway. Click `Deploy`.
+4. In the `Environment variables` section, create keys for `clientID` and `clientSecret` which will be the client id and secret from your app on Twitch, `eventSubSecret` variable which you create yourself (10 to 100 characters), and we'll also come back later to add a `callback` variable once we've created our API Gateway. Click `Deploy`.
 5. Follow the previous steps to create a function for `Notifications`, this time with the `eventSubSecret` variable again, and the variables `region` which is your AWS region your DynamoDB table is in, such as `eu-west-1`, and a `tableName` variable which will be the name of your DynamoDB table. 
 
 ![Lambda 1](./images/Lambda-1.png)
